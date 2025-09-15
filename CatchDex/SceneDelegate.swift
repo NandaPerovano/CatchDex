@@ -16,19 +16,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: windowScene)
-        
-        // Aqui você cria sua view controller
-        
-        let viewController = ViewController()
+        let viewController = PokemonsViewController()
         //let viewController = PokemonsConfigurator().resolveViewController()
-        
-        // Se precisar de navigation controller:
         let navigationController = UINavigationController(rootViewController: viewController)
-        
-        // Define a rootViewController
         window.rootViewController = navigationController
-        
-        // Guarda a referência e exibe
         self.window = window
         window.makeKeyAndVisible()
     }

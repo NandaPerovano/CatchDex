@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PokemonsViewController.swift
 //  CatchDex
 //
 //  Created by Fernanda Perovano on 15/09/25.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PokemonsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
