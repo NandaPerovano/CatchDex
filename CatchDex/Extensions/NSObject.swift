@@ -1,0 +1,15 @@
+//
+//  NSObject.swift
+//  CatchDex
+//
+//  Created by Fernanda Perovano on 25/09/25.
+//
+
+import Foundation
+
+extension NSObject {
+    static var className: String {
+        return String(describing: self)
+    }
+}
+
